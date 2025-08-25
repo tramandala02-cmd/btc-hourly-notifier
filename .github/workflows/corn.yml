@@ -2,7 +2,7 @@ name: BTC Hourly Notifier
 
 on:
   schedule:
-    - cron: '0 * * * *'   # jalan tiap jam (UTC)
+    - cron: '0 * * * *'   # jalan tiap 1 jam (UTC)
   workflow_dispatch: {}   # bisa dijalankan manual juga
 
 jobs:
